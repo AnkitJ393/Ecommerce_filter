@@ -1,8 +1,12 @@
 
-const input = () => {
+const Input = () => {
   return (
-    <div>input</div>
+      <label className='sidebar-label-container'>
+          <input type="radio" name='text' />
+          <span className="checkmark"></span>All
+        </label>
+    
   )
 }
 
-export default input
+export default Input
